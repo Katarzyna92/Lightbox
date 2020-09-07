@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+html {
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    height: 80vh;
+    overflow: hidden;
+    max-width: 1920px;
+    margin: 0 auto;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    background-image: url(img/logo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+nav {
+    max-width: 1024px;
+    margin: 30px auto;
+    text-align: right;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 25px;
+    margin: 10px 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav a:hover {
+    font-weight: bold;
+    transition: 0.3s;
+    border-bottom: none;
+}
+
+.motto p {
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-size: 30px;
+}
+
+p.tekst {
+    margin-top: 30px;
+}
+
+
+section {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+section h1 {
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px gray;
+    background-color: lightgray;
+}
+
+section h2 {
+    padding: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    margin: 10px;
+}
+
+li {
+    font-size: 18px;
+    list-style-type: circle;
+    list-style-position: inside;
+    margin: 10px;
+}
+
+section p {
+    font-size: 18px;
+    margin: 10px;
+    text-align: center;
+}
+
+.dodatek {
+    margin: 50px auto;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+img {
+    height: 50vh;
+    width: 50%;
+    float: left;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+.kontakt i {
+    color: gray;
+    font-size: 30px;
+    padding: 10px;
+    text-align: left;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.kontakt p {
+    font-size: 2Opx;
+    text-align: left;
+}
+
+.kontakt a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    max-width: 1024px;
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    margin: 30px auto;
+}
